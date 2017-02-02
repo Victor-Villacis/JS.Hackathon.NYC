@@ -1,1 +1,1 @@
-# javascriptnyc1
+# JS.Hackathon.NYC
