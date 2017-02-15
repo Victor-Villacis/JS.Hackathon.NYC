@@ -131,7 +131,7 @@
 
 		// Scrolly.
 			$('.scrolly').scrolly({
-				speed: 500,
+				speed: 1000,
 				offset: function() {
 
 					// If <=large, >small, and sidebar is present, use its height as the offset.

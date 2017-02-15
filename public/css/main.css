@@ -56,7 +56,6 @@
 		box-sizing: border-box;
 	}
 
-
 /* Grid */
 
 	.row {
@@ -1673,11 +1672,11 @@
 		}
 
 	a {
-		-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		/*border-bottom: dotted 1px rgba(255, 255, 255, 0.35);*/
+		-moz-transition: color 0.5s ease, border-bottom-color 0.5s ease;
+		-webkit-transition: color 0.5s ease, border-bottom-color 0.5s ease;
+		-ms-transition: color 0.5s ease, border-bottom-color 0.5s ease;
+		transition: color 0.5s ease, border-bottom-color 0.5s ease;
+		border-bottom: solid 5px rgba(255, 255, 255, 0.35);
 		color: inherit;
 		text-decoration: none;
 	}
@@ -1703,7 +1702,6 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		/*color: #ffffff;*/
 		color: black;
 		font-weight: bold;
 		line-height: 1.5;
@@ -3926,81 +3924,3 @@
 			}
 
 		}
-
-
-
-#register_button {
-	background-color: darkslateblue;
-	width: 50%;
-	font-weight: 600;
-	padding:1vw;
-	margin: 0 auto;
-	border-radius: 1vw;
-	border: 2px solid white;
-	color: white;
-
-}
-#register_button:hover {
-	background-color: white;
-	border-radius: 1vw;
-	border: 2px solid darkslateblue;
-	color: darkslateblue !important;
-}
-
-#register-span {
-	font-size: 2em
-}
-#register-span:hover {
-	color: darkslateblue !important;
-}
-
-.jsnycimg {
-	width: 10%
-}
-.white-font {
-	color:white
-}
-.welcome-box {
-	border-radius: 0.25em;
-	margin-bottom: 2em;
-	padding: 1.5em;
-	background-color: black;
-	background: rgba(0,0,0, .7);
-	padding-bottom:20vh;
-}
-
-#javascriptnyc-link,
-/*#javascriptnyc-link:hover,*/
-#javascriptnyc-link:active,
-#javascriptnyc-link:visited {
-	color:gold;
-	font-size:5vmax;
-	text-decoration: none;
-}
-
-#javascriptnyc-link:hover {
-	color:white
-}
-
-
-#rise-link {
-	color:gold;
-	text-decoration: none;
-}
-#rise-link:hover {
-	color:white
-}
-
-
-@media screen and (max-width: 400px) {
-	span#rise-link {
-		display: block;
-		white-space: pre-line;
-		color:gold;
-		text-decoration: none;
-	}
-	#register_button {
-		font-size:.8em;
-		padding:0;
-	}
-}
