@@ -85,10 +85,6 @@ $(window).load(function() {
       request.done(function (response, textStatus, jqXHR){
           // Log a message to the console
 
-          console.log("Hooray, it worked!");
-          console.log(response);
-          console.log(textStatus);
-          console.log(jqXHR);
       //    document.getElementById("subscribe_form").innerHTML = "Hello World";
 
       });
