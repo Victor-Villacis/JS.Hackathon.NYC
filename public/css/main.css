@@ -3938,14 +3938,14 @@
 	background-color: white;
 	border-radius: 1vw;
 	border: 2px solid darkslateblue;
-	color: #b74e91 !important;
+	color: darkslateblue !important;
 }
 
 #register-span {
 	font-size: 2em
 }
 #register-span:hover {
-	color: #b74e91 !important;
+	color: darkslateblue !important;
 }
 
 .jsnycimg {
