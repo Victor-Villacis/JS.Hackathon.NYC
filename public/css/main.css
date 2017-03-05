@@ -3941,7 +3941,7 @@
 
 }
 #register_button:hover {
-	background-color: white;
+	background-color: darkslateblue;
 	border-radius: 1vw;
 	border: 2px solid darkslateblue;
 	color: darkslateblue !important;
@@ -3950,9 +3950,9 @@
 #register-span {
 	font-size: 2em
 }
-#register-span:hover {
+/*#register-span:hover {
 	color: darkslateblue !important;
-}
+}*/
 
 .jsnycimg {
 	width: 10%
